@@ -1,0 +1,28 @@
+### fetch all todos
+GET http://localhost:8000/
+
+### fetch one todo by id or c
+GET http://localhost:8000/todo/status/false
+
+###  add  todos
+POST  http://localhost:8000/todo/add
+Content-Type: application/json
+
+{
+    
+    "todo":"give assesment to the students",
+    "completed":false
+}
+
+### update a todo
+
+PUT http://localhost:8000/todo/4
+Content-Type: application/json
+
+{
+    "todo":"review the responsiveness on the react project1"
+}
+
+
+### delete one todo
+DELETE http://localhost:8000/todo/5

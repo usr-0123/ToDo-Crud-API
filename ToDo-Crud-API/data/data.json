@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "todo": "Do  practice on CRUD of the TODO CRUD class",
+    "completed": true
+  },
+  {
+    "id": 2,
+    "todo": "Do  responsiveness in the REACT project",
+    "completed": true
+  },
+  {
+    "id": 3,
+    "todo": "Do  the  study in Github actions",
+    "completed": false
+  },
+  {
+    "id": 4,
+    "todo": "Run 10 km in 40 min ",
+    "completed": false
+  },
+  {
+    "id": 5,
+    "todo": "Take tea and snack",
+    "completed": true
+  }
+]
